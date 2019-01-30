@@ -1,0 +1,6 @@
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "./typography.scss";
+
+div.icon {
+    @include fa-icon();
+}
